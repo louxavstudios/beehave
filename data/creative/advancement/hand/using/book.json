@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:paper",
+          "components": {
+            "minecraft:custom_data": {
+              "takis_creative_hand": true,
+              "takis_creative_hand_v2": true,
+              "takis_creative_hand_v3": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "creative:.dev/hand/on/use"
+  }
+}

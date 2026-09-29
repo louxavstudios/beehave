@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:paper"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "minecraft:writable_book",
+        "minecraft:custom_name": {
+          "text": "Divine Favor",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        "minecraft:custom_data": {
+          "takis_creative_hand": true,
+          "takis_creative_hand_v2": true,
+          "takis_creative_hand_v3": true
+        },
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:lore": [
+          {
+            "text": "The Book from God",
+            "color": "dark_purple",
+            "italic": false
+          },
+          {
+            "text": "Crouch + right-click: toggle Creative mode",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "One-second cooldown between uses",
+            "color": "gray",
+            "italic": false
+          }
+        ],
+        "minecraft:consumable": {
+          "consume_seconds": 3600.0,
+          "animation": "none",
+          "sound": "minecraft:item.book.page_turn",
+          "has_consume_particles": false
+        }
+      }
+    }
+  ]
+}
