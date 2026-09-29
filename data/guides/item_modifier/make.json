@@ -1,0 +1,696 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:white_shulker_box"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_name": {
+          "text": "Guides",
+          "color": "aqua",
+          "bold": true,
+          "italic": false
+        },
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data": {
+          "takis_guides": true
+        },
+        "minecraft:lore": [
+          {
+            "text": "One written book per datapack feature",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "24 guides",
+            "color": "dark_gray",
+            "italic": false
+          }
+        ],
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Calendar and Clock"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "TAKIS CALENDAR\n\nHold a clock in either hand to see the current date and time in the actionbar. You can also look directly at a clock displayed in an item frame."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Edible Seeds"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "EDIBLE SEEDS\n\nWheat, beetroot, melon and pumpkin seeds can be eaten, even at full hunger. Each restores 1 nutrition with a little saturation. Use seeds on farmland normally to plant them."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Block Replacer"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "BLOCK REPLACER\n\nEnchant a brush with Block Replacer. Hold a placeable block in your offhand, then use the brush while aiming at a block within 6 blocks. The old block drops and the offhand block replaces it."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Only successful replacements consume an offhand item. Chests and trapped chests are protected. The brush loses durability only 1 time in 4. Unbreaking and Mending work. Repair it in an anvil with a hay block."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Scuuuba"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "SCUUUBA\n\nRename a full glass block exactly \"Scuuuba\" in an anvil. It gains a glint and can be worn in the helmet slot. Panes do not work, and prepared Scuuuba cannot be placed."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Each dive gives 45–60 seconds of Water Breathing. Leaving water resets it. After the timer and bubbles run out, Scuuuba loses durability instead of your health. Once it breaks, normal drowning resumes."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Unbreaking makes Scuuuba last longer after its air reserve ends. Mending repairs it with experience. A glass-stress sound means durability was lost; the full breaking sound means the helmet is gone."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 4,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Vein Mining"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "VEIN MINING\n\nEnchant a pickaxe or shovel with Vein Mining. Crouch while breaking a supported block to mine connected blocks of the same family. Each activation has a 64-block safety limit."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Pickaxes support ores, stone, natural deepslate, andesite, diorite, granite, terracotta, smooth basalt, calcite, amethyst blocks and budding amethyst. Cobbled deepslate and glazed terracotta are excluded."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Shovels support connected gravel, ordinary dirt and clay. Every tool tier, including copper, is supported. Fortune and Smelter continue to affect the extra blocks mined by the vein."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 5,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Tree Capitator"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "TREE CAPITATOR\n\nEnchant an axe, then crouch while breaking a tree log to fell connected logs. It recognizes the pack's supported tree families and limits each operation for safety."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Tree Capitator can also enchant shears. Crouch and break a leaf to remove up to 256 connected leaves without cutting logs. Leaves use vanilla loot, including each tree's normal chance to drop saplings."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 6,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Smelter"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "SMELTER\n\nEnchant a pickaxe with Smelter. Mined ores automatically drop their smelted result, such as iron ingots instead of raw iron. It works with Vein Mining and remains compatible with Fortune."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 7,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Expanded Enchanting"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "EXPANDED ENCHANTING\n\nEnchantments can be combined beyond their normal limits, up to level X. Vanilla incompatibility restrictions are removed, and anvil enchantment costs are reduced for easier combining."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 8,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Anvil Repair"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "ANVIL REPAIR\n\nLook at a chipped or damaged anvil for the repair hint. Crouch and right-click it with an iron ingot in your main hand. One ingot repairs one damage stage and the anvil screen stays closed."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Damaged becomes chipped, then chipped becomes pristine. Facing is preserved. Standing, using an offhand ingot, or clicking a pristine anvil does not consume iron and opens the anvil normally."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 9,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "XP Bottling"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "XP BOTTLING\n\nCrouch and use an empty glass bottle while you have at least 11 total XP points. It becomes a Bottle o' Enchanting, costs a random 3–11 XP points, and plays the experience pickup sound."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 10,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Bookshelf Inspector"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "BOOKSHELF INSPECTOR\n\nStand still and look directly at an occupied slot in a chiseled bookshelf. Floating text shows the book's name. Written books show the author, and enchanted books list their enchantments."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 11,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Invisible Item Frames"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "INVISIBLE FRAMES\n\nHold a phantom membrane and right-click a placed item frame or glow item frame. Each click toggles the frame border between hidden and visible. The membrane is reusable, and displayed items stay in place without rotating."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 12,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Floating Text"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "FLOATING TEXT\n\nRename a name tag to your text. Right-click a block to place it at that surface, or right-click the air to place it where you stand. Text is visible within 32 blocks and walls hide it. Left-click it to recover the tag."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 13,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Guide Library"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "GUIDE LIBRARY\n\nGet a complete Guides shulker with:\n/function guides:give\n\nOr rename an empty shulker box exactly \"Guides\". Placed Guides boxes automatically receive the latest books after /reload."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 14,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Wood Stonecutting"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "WOOD STONECUTTING\n\nPut logs, stems, wood, hyphae, bamboo blocks or planks into a stonecutter. Convert logs to stripped blocks, bark blocks or planks, and compact wood back into 4 logs."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Planks offer matching stairs, slabs, buttons, pressure plates, doors, trapdoors, fences, gates, signs and available boats or rafts. Any plank type can also make 2 sticks."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 15,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Mailboxes"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "MAILBOXES\n\nRename a barrel \"Mailbox\" for a sending mailbox. A barrel named with a unique 3–32 character ID becomes a receiver. IDs use only lowercase letters, numbers and underscores."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Name a bundle or shulker box with the receiver's exact ID, then place it in a sending Mailbox and close the barrel. Bundles deliver their contents. Shulker boxes are delivered whole."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Empty named bundles form the shared address book and synchronize between sending mailboxes. Mail waits if an address is missing or the receiver is full. A green actionbar confirms a successful delivery."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 16,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Sleep Reminders"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "SLEEP REMINDERS\n\nAt night, chat first reports players near a placed bed or straw bed. Only when nobody is near one does it report players carrying either kind in their inventory. No message appears when nobody qualifies."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 19,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Off-Road Minecarts"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "OFF-ROAD MINECARTS\n\nHold a minecart and right-click the ground to place it without rails. Ride it and use WASD relative to where you look. The cart keeps normal ground friction. Minecarts placed or driven on rails retain vanilla rail movement."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "A minecart cannot drive straight up a full-block ledge. Use a slab or stair as a ramp. Small edges from dirt paths onto adjacent blocks are crossed automatically. Ordinary walls remain impassable."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "ADMIN SPEED\n\nSet off-road top speed from 1–100 blocks/sec:\n/function minecart:speed {speed:7}\n\nDefault is 7. Values outside 1–100 are clamped. Higher settings also accelerate faster. Rail speed is unchanged."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 20,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Law and Credit Score"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "LAW\n\nPlayers start with 20 Credit, shown in the player list. Scores range from 0 to 42. Forbidden gamemodes are reverted to Survival and penalized. Attacking protected players also lowers Credit."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Breeding passive mobs adds 2 Credit. Villager trades add 1. Repairing an iron golem adds 1 Credit for each iron ingot used. Reaching 0 can send a player to a configured prison cell."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "ADMIN CONTROLS\n\nDisable Law:\n/function law:control {enabled:0}\n\nEnable it:\n/function law:control {enabled:1}\n\nThe choice persists through /reload and does not reset Credit Scores."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 21,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Book of God"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "BOOK OF GOD\n\nRename either a Book or Book and Quill exactly Book of God. It becomes a ready-to-edit command book with no enchantment required. Standing right-click edits it normally; crouch and right-click executes its commands."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Write one command on each page. Crouch and right-click to run every non-empty page as yourself, in page order. Commands may begin with / or omit it. Release crouch before running again. Keep Books of God secure."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "COMMAND LOGS\n\nEvery executed command creates a book titled with the player, command name and date. Inside are the date, player name, coordinates and exact command. Placed Book of God Logs boxes mirror the global archive."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "EXPORT LOGS\n\nGet all:\n/function godgift:logs {clear:0}\n\nOne online player:\n/function godgift:player {player:\"Name\"}\n\nCarried boxes are snapshots. Place one to join sync. Adding or removing from a placed box updates every registered box."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Logs remain oldest-to-newest. Removing one from a placed box removes it from every synced box, but the item you took stays with you. At 27 entries, the next command clears the archive. Move important books elsewhere before rollover."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "CLEAR LOGS\n\nErase the global archive and immediately empty every registered placed Book of God Logs box:\n/function godgift:logs {clear:1}\n\nThis cannot recover deleted entries. Export or remove important log books first."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "GIVE THE BOOK\n\nReceive a ready-to-edit Book of God:\n/function godgift:book\n\nEveryone online sees who received the Book from God and hears the global announcement sound."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 22,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Kingdom Protection"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "KINGDOM PROTECTION\n\nKondom and Lulu Village use imported chunks. Unlisted Survival players become Adventure inside either kingdom: they cannot build or break blocks, but can still use containers, doors and other interactions. Leaving restores Survival."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "KONDOM ALLOWLIST\n\nAs xavthecave, rename an empty shulker exactly Kondom. Place it, then add or remove name tags named to exact player usernames. Every registered Kondom box stays synchronized."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "LULU ALLOWLIST\n\nAs hahaAngee_, rename an empty shulker exactly Lulu Village. Place it, then add or remove name tags named to exact player usernames. Every registered Lulu Village box stays synchronized."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "REPLACEMENT BOXES\n\nKondom:\n/function kingdom:allowlist {kingdom:\"kondom\"}\n\nLulu Village:\n/function kingdom:allowlist {kingdom:\"lulu/village\"}\n\nOnly name tags count. Removing a tag revokes that player's build access."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "BOUNDARIES\n\nEntering either kingdom shows its name and owner in one white actionbar sentence. Leaving shows its farewell there. Messages appear once per boundary crossing. Kingdom Adventure mode is exempt from Law penalties."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 23,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Divine Favor"
+                  },
+                  "author": "Takis",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "DIVINE FAVOR\n\nRename a book or book and quill exactly \"Divine Favor\" in an anvil. Sneak and right-click it in Survival to enter Creative, or in Creative to return to Survival."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Divine Favor is free and remains active until toggled off. After each use, wait one second and release crouch before using the book again."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Law does not punish Creative mode entered through Divine Favor. Toggling the book off returns you to Survival and removes the exemption immediately."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
