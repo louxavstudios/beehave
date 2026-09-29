@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "hurt_lourat08": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "minecraft:nbt": "{Tags:[\"law.lourat08\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "law:.dev/offence/lourat08"
+  }
+}

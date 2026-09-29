@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "villager_trade": {
+      "trigger": "minecraft:villager_trade"
+    }
+  },
+  "rewards": {
+    "function": "law:.dev/reward/trade"
+  }
+}

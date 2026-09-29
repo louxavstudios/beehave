@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "bred_animal": {
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "rewards": {
+    "function": "law:.dev/reward/bred"
+  }
+}

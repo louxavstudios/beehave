@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "hurt_hahaangee": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:player",
+            "minecraft:nbt": "{Tags:[\"law.hahaangee\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "law:.dev/offence/hahaangee"
+  }
+}
