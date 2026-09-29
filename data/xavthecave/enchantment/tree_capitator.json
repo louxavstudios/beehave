@@ -1,0 +1,31 @@
+{
+  "description": {
+    "text": "Tree Capitator"
+  },
+  "supported_items": "#tree:tree/tools",
+  "primary_items": "#tree:tree/tools",
+  "weight": 2,
+  "max_level": 10,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "tree:.dev/on/hit"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+execute if score #count tree.mine matches ..255 if entity @e[type=minecraft:marker,tag=takis.tc_shear_node,limit=1] at @e[type=minecraft:marker,tag=takis.tc_shear_node,limit=1,sort=nearest] run function tree:.dev/leaves/scan/one
