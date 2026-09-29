@@ -1,0 +1,22 @@
+{
+  "description": {
+    "text": "Smelter"
+  },
+  "supported_items": "#smelter:pickaxes",
+  "primary_items": "#smelter:pickaxes",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 8,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {}
+}
