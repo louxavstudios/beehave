@@ -1,0 +1,1 @@
+$title @a actionbar [{"text":"A new address has been registered; you can now send items to ","color":"yellow"},{"text":"$(id)","color":"gold"}]

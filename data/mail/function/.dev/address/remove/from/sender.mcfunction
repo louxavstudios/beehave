@@ -1,0 +1,1 @@
+$data remove block ~ ~ ~ Items[{id:"minecraft:bundle",components:{"minecraft:custom_name":"$(id)"}}]

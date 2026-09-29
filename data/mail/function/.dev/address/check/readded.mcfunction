@@ -1,0 +1,1 @@
+$execute if data storage mail:mail deleted_ids[{id:"$(id)"}] unless data entity @s data.last_addresses[{id:"minecraft:bundle",components:{"minecraft:custom_name":"$(id)"}}] run data remove storage mail:mail deleted_ids[{id:"$(id)"}]

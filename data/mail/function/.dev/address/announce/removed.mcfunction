@@ -1,0 +1,1 @@
+$title @a actionbar [{"text":"The address ","color":"yellow"},{"text":"$(id)","color":"gold"},{"text":" was removed; items can no longer be sent there","color":"yellow"}]

@@ -1,0 +1,1 @@
+$execute if data storage mail:mail addresses[{id:"$(id)",item_id:"minecraft:bundle"}] unless data block ~ ~ ~ Items[{id:"minecraft:bundle",components:{"minecraft:custom_name":"$(id)"}}] run function mail:.dev/address/remove/commit with storage mail:mail input
