@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#vein:ores/gravel",
+    "#vein:ores/dirt",
+    "#vein:ores/clay"
+  ]
+}

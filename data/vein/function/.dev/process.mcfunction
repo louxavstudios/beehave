@@ -1,0 +1,1 @@
+execute if score #count vein.mine matches ..63 if entity @e[type=minecraft:marker,tag=takis.vm_node,limit=1] at @e[type=minecraft:marker,tag=takis.vm_node,limit=1,sort=nearest] run function vein:.dev/scan

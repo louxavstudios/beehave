@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "#vein:ores/coal",
+    "#vein:ores/iron",
+    "#vein:ores/copper",
+    "#vein:ores/gold",
+    "#vein:ores/redstone",
+    "#vein:ores/lapis",
+    "#vein:ores/diamond",
+    "#vein:ores/emerald",
+    "#vein:ores/quartz",
+    "#vein:ores/ancient/debris",
+    "#vein:ores/andesite",
+    "#vein:ores/diorite",
+    "#vein:ores/granite",
+    "#vein:ores/deepslate",
+    "#vein:ores/calcite",
+    "#vein:ores/smooth/basalt",
+    "#vein:ores/amethyst/block",
+    "#vein:ores/budding/amethyst",
+    "#vein:ores/terracotta",
+    "#vein:ores/stone"
+  ]
+}

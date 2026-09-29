@@ -1,0 +1,24 @@
+execute if score #vein.family vein.mine matches 1 if block ~ ~ ~ #vein:ores/coal run function vein:.dev/family/coal
+execute if score #vein.family vein.mine matches 2 if block ~ ~ ~ #vein:ores/iron run function vein:.dev/family/iron
+execute if score #vein.family vein.mine matches 3 if block ~ ~ ~ #vein:ores/copper run function vein:.dev/family/copper
+execute if score #vein.family vein.mine matches 4 if block ~ ~ ~ #vein:ores/gold run function vein:.dev/family/gold
+execute if score #vein.family vein.mine matches 5 if block ~ ~ ~ #vein:ores/redstone run function vein:.dev/family/redstone
+execute if score #vein.family vein.mine matches 6 if block ~ ~ ~ #vein:ores/lapis run function vein:.dev/family/lapis
+execute if score #vein.family vein.mine matches 7 if block ~ ~ ~ #vein:ores/diamond run function vein:.dev/family/diamond
+execute if score #vein.family vein.mine matches 8 if block ~ ~ ~ #vein:ores/emerald run function vein:.dev/family/emerald
+execute if score #vein.family vein.mine matches 9 if block ~ ~ ~ #vein:ores/quartz run function vein:.dev/family/quartz
+execute if score #vein.family vein.mine matches 10 if block ~ ~ ~ #vein:ores/ancient/debris run function vein:.dev/family/ancient/debris
+execute if score #vein.family vein.mine matches 11 if block ~ ~ ~ #vein:ores/andesite run function vein:.dev/family/andesite
+execute if score #vein.family vein.mine matches 12 if block ~ ~ ~ #vein:ores/diorite run function vein:.dev/family/diorite
+execute if score #vein.family vein.mine matches 13 if block ~ ~ ~ #vein:ores/granite run function vein:.dev/family/granite
+execute if score #vein.family vein.mine matches 14 if block ~ ~ ~ #vein:ores/deepslate run function vein:.dev/family/deepslate
+execute if score #vein.family vein.mine matches 15 if block ~ ~ ~ #vein:ores/calcite run function vein:.dev/family/calcite
+execute if score #vein.family vein.mine matches 16 if block ~ ~ ~ #vein:ores/smooth/basalt run function vein:.dev/family/smooth/basalt
+execute if score #vein.family vein.mine matches 17 if block ~ ~ ~ #vein:ores/amethyst/block run function vein:.dev/family/amethyst/block
+execute if score #vein.family vein.mine matches 18 if block ~ ~ ~ #vein:ores/budding/amethyst run function vein:.dev/family/budding/amethyst
+execute if score #vein.family vein.mine matches 19 if block ~ ~ ~ #vein:ores/gravel run function vein:.dev/family/gravel
+execute if score #vein.family vein.mine matches 20 if block ~ ~ ~ #vein:ores/dirt run function vein:.dev/family/dirt
+execute if score #vein.family vein.mine matches 21 if block ~ ~ ~ #vein:ores/clay run function vein:.dev/family/clay
+execute if score #vein.family vein.mine matches 22 if block ~ ~ ~ #vein:ores/terracotta run function vein:.dev/family/terracotta
+execute if score #vein.family vein.mine matches 23 if block ~ ~ ~ #vein:ores/stone run function vein:.dev/family/stone
+kill @e[type=minecraft:marker,tag=takis.vm_node,distance=..0.1,limit=1]
