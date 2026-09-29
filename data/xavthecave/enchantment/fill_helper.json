@@ -1,0 +1,31 @@
+{
+  "description": {
+    "text": "WorldEdit"
+  },
+  "supported_items": "minecraft:wooden_axe",
+  "primary_items": "minecraft:wooden_axe",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "worldedit:.dev/runtime/fill/helper/native/hit"
+        }
+      }
+    ]
+  }
+}

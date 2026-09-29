@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:using_item"
+    }
+  },
+  "rewards": {
+    "function": "worldedit:.dev/runtime/fill/helper/on/use"
+  }
+}

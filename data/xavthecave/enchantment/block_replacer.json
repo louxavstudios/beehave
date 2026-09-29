@@ -1,0 +1,22 @@
+{
+  "description": {
+    "text": "Block Replacer"
+  },
+  "supported_items": "minecraft:brush",
+  "primary_items": "minecraft:brush",
+  "weight": 2,
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {}
+}

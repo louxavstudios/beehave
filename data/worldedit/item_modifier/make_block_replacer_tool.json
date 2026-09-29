@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:shears"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "minecraft:brush",
+        "minecraft:item_name": {
+          "translate": "item.minecraft.brush"
+        },
+        "minecraft:custom_data": {
+          "takis_block_replacer_tool": true
+        },
+        "minecraft:max_damage": 64,
+        "minecraft:repairable": {
+          "items": "minecraft:hay_block"
+        },
+        "minecraft:consumable": {
+          "consume_seconds": 3600.0,
+          "animation": "brush",
+          "sound": "minecraft:item.brush.brushing.generic",
+          "has_consume_particles": false
+        }
+      }
+    }
+  ]
+}

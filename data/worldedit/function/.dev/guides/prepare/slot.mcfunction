@@ -1,0 +1,2 @@
+$execute if items entity @s $(slot) #minecraft:shulker_boxes[minecraft:custom_data~{worldedit_guides:true}] unless items entity @s $(slot) *[minecraft:custom_data~{worldedit_guides_commands_v6:true}] run item modify entity @s $(slot) worldedit:make_guides
+$execute if items entity @s $(slot) #minecraft:shulker_boxes[minecraft:custom_name="WorldEdit Guides"] unless items entity @s $(slot) *[minecraft:custom_data~{worldedit_guides:true}] unless items entity @s $(slot) *[minecraft:container] run item modify entity @s $(slot) worldedit:make_guides

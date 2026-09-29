@@ -1,0 +1,563 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:white_shulker_box"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_name": {
+          "text": "WorldEdit Guides",
+          "color": "aqua",
+          "bold": true,
+          "italic": false
+        },
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data": {
+          "worldedit_guides": true,
+          "worldedit_guides_commands_v6": true
+        },
+        "minecraft:lore": [
+          {
+            "text": "One written book per command",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "21 command guides",
+            "color": "dark_gray",
+            "italic": false
+          }
+        ],
+        "minecraft:container": [
+          {
+            "slot": 0,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Axe Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "AXE COMMAND\n\n/function worldedit:axe\n\nGives the vanilla wooden WorldEdit selection axe. It works in Survival and Creative."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Left-click a block for Pos 1. Right-click a block for Pos 2. Crouch-right-click with the axe to clear the selection."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 1,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Clear Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "CLEAR COMMAND\n\n/function worldedit:clear\n\nRemoves your current selection and its visible outline. It also cancels an unconfirmed paste preview."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 2,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Pos 1 Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "POS 1 COMMAND\n\n/function worldedit:pos1\n\nSets Pos 1 to the block containing your feet. This is an alternative to left-clicking with the axe."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 3,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Pos 2 Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "POS 2 COMMAND\n\n/function worldedit:pos2\n\nSets Pos 2 to the block containing your feet and completes the region outline."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 4,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Copy Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "COPY COMMAND\n\n/function worldedit:copy\n\nCopies your completed selection into your personal persistent clipboard."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 5,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Paste Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "PASTE COMMAND\n\n/function worldedit:paste\n\nShows a preview at your feet. The clipboard's minimum corner is aligned to the preview corner."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 6,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Confirm Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "CONFIRM COMMAND\n\n/function worldedit:confirm\n\nPlaces the active paste preview. You can also click Confirm in the paste message."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 7,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Undo Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "UNDO COMMAND\n\n/function worldedit:undo\n\nReverses your latest fill, replace, shape, line, or confirmed paste operation."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 8,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Redo Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "REDO COMMAND\n\n/function worldedit:redo\n\nReapplies your latest undone operation. Starting a new edit clears the redo history."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 9,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Tape Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "TAPE COMMAND\n\n/function worldedit:tape\n\nPlaces persistent numbered measurement markers between Pos 1 and Pos 2."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Break any displayed number to remove every marker belonging to that measurement."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 10,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Line Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "LINE COMMAND\n\n/function worldedit:line {block:\"minecraft:stone\"}\n\nDraws the selected block in a straight line from Pos 1 through Pos 2."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 11,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Fill Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "FILL COMMAND\n\n/function worldedit:fill {block:\"minecraft:stone\"}\n\nFills the selection with the required block. Use \"minecraft:air\" to clear it."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 12,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Replace Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "REPLACE COMMAND\n\n/function worldedit:replace {block:\"minecraft:stone\",replace:[\"minecraft:dirt\"]}\n\nReplaces the required matching blocks with the required new block."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 13,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Walls Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "WALLS COMMAND\n\n/function worldedit:walls {block:\"minecraft:stone\"}\n\nBuilds the four vertical outer walls without adding a floor or roof."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 14,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Hollow Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "HOLLOW COMMAND\n\n/function worldedit:hollow {block:\"minecraft:glass\"}\n\nBuilds a closed outer shell and clears the space inside it."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 15,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Count Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "COUNT COMMAND\n\n/function worldedit:count {block:\"minecraft:stone\"}\n\nCounts the required matching block without changing the selection."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 16,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Stack Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "STACK COMMAND\n\n/function worldedit:stack {direction:\"up\",amount:5}\n\nCopies by the required direction and amount, then advances the selection."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 17,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Move Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "MOVE COMMAND\n\n/function worldedit:move {direction:\"left\",amount:5}\n\nMoves the selected blocks and selection by the required direction and amount."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 18,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Shift Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "SHIFT COMMAND\n\n/function worldedit:shift {direction:\"forward\",amount:2}\n\nMoves only the selection by the required direction and amount. Blocks stay in place."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 19,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Fill Hole Command"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "FILL HOLE\n\n/function worldedit:fillr {block:\"minecraft:dirt\"}\n\nFills connected empty space around and below your feet. Open or oversized holes are refused."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "The operation preserves existing blocks and supports WorldEdit Undo. Use the required namespaced block ID."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "slot": 20,
+            "item": {
+              "id": "minecraft:written_book",
+              "count": 1,
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": "Holy Fill"
+                  },
+                  "author": "WorldEdit",
+                  "generation": 0,
+                  "resolved": true,
+                  "pages": [
+                    {
+                      "raw": {
+                        "text": "HOLY FILL\n\nApply Holy Fill to snowballs with its enchanted book. Hold the desired block in your offhand, then throw one into a hole."
+                      }
+                    },
+                    {
+                      "raw": {
+                        "text": "Get the book with:\n/function worldedit:holyfill\n\nWithout an offhand block, the throw is cancelled and the snowball is returned."
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

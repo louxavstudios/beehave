@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "using_block_replacer": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:shears",
+          "components": {
+            "minecraft:custom_data": {
+              "takis_block_replacer_tool": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "worldedit:.dev/on/use"
+  }
+}

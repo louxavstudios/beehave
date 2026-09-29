@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "interacting_with_block": {
+      "trigger": "minecraft:any_block_use"
+    }
+  },
+  "rewards": {
+    "function": "worldedit:.dev/on/interact"
+  }
+}

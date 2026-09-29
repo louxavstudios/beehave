@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:white_shulker_box"
+        },
+        "item": {
+          "items": "minecraft:white_shulker_box",
+          "components": {
+            "minecraft:custom_data": {
+              "worldedit_guides": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "worldedit:.dev/guides/on/placed"
+  }
+}

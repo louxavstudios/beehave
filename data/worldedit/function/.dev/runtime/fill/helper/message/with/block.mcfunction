@@ -1,0 +1,1 @@
+$tellraw @s ["",{"text":"Region ","color":"white","bold":false},{"text":"$(x1) $(y1) $(z1) $(x2) $(y2) $(z2)","color":"yellow","bold":false,"click_event":{"action":"suggest_command","command":"/fill $(x1) $(y1) $(z1) $(x2) $(y2) $(z2) $(block)"},"hover_event":{"action":"show_text","value":{"text":"Click to prepare /fill with the cached offhand block","color":"green"}}}]

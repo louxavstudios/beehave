@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #worldedit:hole/passable unless entity @e[type=minecraft:marker,tag=worldedit.hole.node,distance=..0.1] run summon minecraft:marker ~ ~ ~ {Tags:["worldedit.hole.node","worldedit.hole.frontier"]}
