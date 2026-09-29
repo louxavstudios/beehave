@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+<<<<<<< Updated upstream
+    "anvil:.dev/tick"
+=======
+    "seeds:.dev/tick"
+>>>>>>> Stashed changes
+  ]
+}
