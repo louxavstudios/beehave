@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:any_block_use"
+    }
+  },
+  "rewards": {
+    "function": "floating:.dev/text/on/block/use"
+  }
+}

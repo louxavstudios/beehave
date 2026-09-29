@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:nbt": "{Tags:[\"takis.floating_text_hitbox\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "floating:.dev/text/on/hit"
+  }
+}
