@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "use_membrane": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": "minecraft:phantom_membrane"
+        },
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "#invisible:item/frames"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "invisible:.dev/frame/toggle"
+  }
+}
