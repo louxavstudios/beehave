@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_enchantments",
+      "enchantments": {
+        "xavthecave:liquefactio_automatica": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#level"
+          },
+          "score": "xav.cleanup"
+        },
+        "takis:liquefactio_automatica": 0,
+        "smelter:liquefactio/automatica": 0,
+        "smelter:liquefactio_automatica": 0
+      }
+    }
+  ]
+}

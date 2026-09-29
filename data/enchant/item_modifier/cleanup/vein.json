@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_enchantments",
+      "enchantments": {
+        "xavthecave:vein_mining": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "#level"
+          },
+          "score": "xav.cleanup"
+        },
+        "takis:vein_mining": 0,
+        "vein:vein_mining": 0
+      }
+    }
+  ]
+}
