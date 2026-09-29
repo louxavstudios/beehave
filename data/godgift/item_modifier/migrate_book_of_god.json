@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{takis_cultural:true,takis_cultural_v2:true,takis_cultural_v3:true,takis_cultural_v4:true}"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_name": {
+          "text": "Book of God",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        "minecraft:enchantment_glint_override": true,
+        "!minecraft:enchantable": {},
+        "minecraft:enchantments": {}
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "minecraft:white_shulker_box"
+        },
+        "item": {
+          "items": "minecraft:white_shulker_box",
+          "components": {
+            "minecraft:custom_data": {
+              "takis_cultural_log": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "godgift:.dev/log/on/placed"
+  }
+}

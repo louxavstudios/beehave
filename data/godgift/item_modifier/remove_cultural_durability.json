@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "!minecraft:max_damage": {},
+    "!minecraft:damage": {},
+    "!minecraft:repairable": {},
+    "!minecraft:max_stack_size": {}
+  }
+}

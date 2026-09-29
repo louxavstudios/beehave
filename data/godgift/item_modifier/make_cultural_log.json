@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:white_shulker_box"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:custom_name": {
+          "text": "Book of God Logs",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data": {
+          "takis_cultural_log": true
+        },
+        "minecraft:lore": [
+          {
+            "text": "Snapshot of the global command archive",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "Exported oldest-to-newest",
+            "color": "dark_gray",
+            "italic": false
+          }
+        ]
+      }
+    }
+  ]
+}

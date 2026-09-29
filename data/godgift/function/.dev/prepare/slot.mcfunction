@@ -1,0 +1,5 @@
+$execute if items entity @s $(slot) #godgift:books/books[minecraft:custom_name="Cultural"] unless items entity @s $(slot) *[minecraft:custom_data~{takis_cultural:true}] run item modify entity @s $(slot) godgift:make_cultural_book
+$execute if items entity @s $(slot) #godgift:books/books[minecraft:custom_name~{text:"Cultural"}] unless items entity @s $(slot) *[minecraft:custom_data~{takis_cultural:true}] run item modify entity @s $(slot) godgift:make_cultural_book
+$execute if items entity @s $(slot) #godgift:books/books[minecraft:custom_name="Book of God"] unless items entity @s $(slot) *[minecraft:custom_data~{takis_cultural:true}] run item modify entity @s $(slot) godgift:make_cultural_book
+$execute if items entity @s $(slot) #godgift:books/books[minecraft:custom_name~{text:"Book of God"}] unless items entity @s $(slot) *[minecraft:custom_data~{takis_cultural:true}] run item modify entity @s $(slot) godgift:make_cultural_book
+$execute if items entity @s $(slot) *[minecraft:custom_data~{takis_cultural:true}] unless items entity @s $(slot) *[minecraft:custom_data~{takis_cultural_v4:true}] run item modify entity @s $(slot) godgift:migrate_book_of_god

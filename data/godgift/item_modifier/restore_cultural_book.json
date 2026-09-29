@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:writable_book"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "minecraft:writable_book",
+        "minecraft:custom_name": {
+          "text": "Book of God",
+          "color": "gold",
+          "bold": true,
+          "italic": false
+        },
+        "minecraft:custom_data": {
+          "takis_cultural": true,
+          "takis_cultural_v2": true,
+          "takis_cultural_v3": true,
+          "takis_cultural_v4": true
+        },
+        "minecraft:max_stack_size": 1,
+        "minecraft:enchantment_glint_override": true,
+        "!minecraft:consumable": {}
+      }
+    }
+  ]
+}
