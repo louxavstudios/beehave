@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:pig_spawn_egg"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "minecraft:minecart",
+        "minecraft:item_name": {
+          "translate": "item.minecraft.minecart"
+        },
+        "minecraft:max_stack_size": 1,
+        "minecraft:entity_data": {
+          "id": "minecraft:minecart"
+        },
+        "minecraft:custom_data": {
+          "takis_ground_minecart": true
+        }
+      }
+    }
+  ]
+}
