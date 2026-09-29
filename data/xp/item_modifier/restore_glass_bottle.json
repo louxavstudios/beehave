@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "!minecraft:custom_data": {},
+        "!minecraft:consumable": {}
+      }
+    }
+  ]
+}

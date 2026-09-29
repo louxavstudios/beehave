@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "bottle": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:paper",
+          "components": {
+            "minecraft:custom_data": {
+              "takis_xp_bottle": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "xp:.dev/bottle/on/consume"
+  }
+}

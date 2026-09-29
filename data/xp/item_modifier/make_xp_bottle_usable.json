@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_item",
+      "item": "minecraft:paper"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:item_model": "minecraft:glass_bottle",
+        "minecraft:item_name": {
+          "translate": "item.minecraft.glass_bottle"
+        },
+        "minecraft:custom_data": {
+          "takis_xp_bottle": true
+        },
+        "minecraft:consumable": {
+          "consume_seconds": 0.0,
+          "animation": "drink",
+          "sound": "minecraft:item.honey_bottle.drink",
+          "has_consume_particles": false
+        }
+      }
+    }
+  ]
+}
