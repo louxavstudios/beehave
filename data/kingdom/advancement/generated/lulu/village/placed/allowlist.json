@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "placed": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_block",
+          "blocks": "#minecraft:shulker_boxes"
+        },
+        "item": {
+          "items": "#minecraft:shulker_boxes",
+          "components": {
+            "minecraft:custom_data": {
+              "takis_kingdom_allowlist": true,
+              "kingdom_key": "lulu_village"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "kingdom:.dev/generated/lulu/village/on/placed"
+  }
+}

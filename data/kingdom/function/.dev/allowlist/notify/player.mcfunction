@@ -1,0 +1,1 @@
+$execute unless data storage kingdom:kingdom box_old[{id:"minecraft:name_tag",components:{"minecraft:custom_name":{text:"$(player)"}}}] unless data storage kingdom:kingdom box_old[{id:"minecraft:name_tag",components:{"minecraft:custom_name":"$(player)"}}] run execute as @a run function notice:.dev/allowlist/added/success

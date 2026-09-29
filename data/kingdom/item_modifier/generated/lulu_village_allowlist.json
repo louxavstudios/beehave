@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:set_components",
+  "components": {
+    "minecraft:custom_name": {
+      "text": "Lulu Village",
+      "color": "gold",
+      "bold": true,
+      "italic": false
+    },
+    "minecraft:enchantment_glint_override": true,
+    "minecraft:custom_data": {
+      "takis_kingdom_allowlist": true,
+      "kingdom_key": "lulu_village",
+      "kingdom": "Lulu Village"
+    },
+    "minecraft:lore": [
+      {
+        "text": "Kingdom Allowlist",
+        "color": "yellow",
+        "italic": false
+      },
+      {
+        "text": "Named tags grant build access",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "minecraft:container": [
+      {
+        "slot": 0,
+        "item": {
+          "id": "minecraft:name_tag",
+          "count": 1,
+          "components": {
+            "minecraft:custom_name": {
+              "text": "hahaAngee_",
+              "color": "green",
+              "italic": false
+            },
+            "minecraft:lore": [
+              {
+                "text": "Allowed to build in Lulu Village",
+                "color": "dark_gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

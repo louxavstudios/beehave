@@ -1,0 +1,38 @@
+[
+  {
+    "score": 1,
+    "key": "kondom",
+    "csv": "kondom.csv",
+    "display_name": "Kondom",
+    "owner_username": "xavthecave",
+    "owner_display": "xavthecave",
+    "shulker_name": "Kondom"
+  },
+  {
+    "score": 2,
+    "key": "lulu_village",
+    "csv": "lulu.csv",
+    "display_name": "Lulu Village",
+    "owner_username": "hahaAngee_",
+    "owner_display": "hahaAngee_",
+    "shulker_name": "Lulu Village"
+  },
+  {
+    "score": 3,
+    "key": "sashx_anarchy",
+    "csv": "sashx.csv",
+    "display_name": "Sashx Anarchy",
+    "owner_username": "Sashimir",
+    "owner_display": "Sashimir",
+    "shulker_name": "Sashx Anarchy"
+  },
+  {
+    "score": 4,
+    "key": "loisland",
+    "csv": "loisland.csv",
+    "display_name": "Loisland",
+    "owner_username": "loangoncalves",
+    "owner_display": "loangoncalves",
+    "shulker_name": "Loisland"
+  }
+]
