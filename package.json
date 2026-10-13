@@ -1,0 +1,8 @@
+{
+  "name": "beehave-corp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node tools/build-pages.mjs", "test": "node --test tests/calendar.test.mjs" },
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171717">
+  <title>Settings — Beehave Corp</title>
+  <link rel="icon" href="../icon.png" type="image/png">
+  <link rel="stylesheet" href="../styles/minecraft.css">
+  <link rel="stylesheet" href="../styles/corp.css">
+  <script src="../preferences.js"></script>
+  <script defer src="../ui.js"></script>
+  <script defer src="index.js"></script>
+</head>
+<body class="settings-page">
+  <a class="skip-link" href="#main-content">Skip to settings</a>
+  <div class="corp-app">
+    <header class="topbar"><div class="cluster"><a class="mc-button home-button" href="../index.html">⌂ Desktop</a><h1 class="page-title">Settings</h1></div><span class="mc-tag">Beehave Corp</span></header>
+    <div class="settings-layout">
+      <aside class="settings-nav" aria-label="Settings navigation"><nav>
+        <a class="mc-button" href="#appearance">Appearance</a>
+        <a class="mc-button" href="#layout">Desktop layout</a>
+        <a class="mc-button" href="#about">About</a>
+      </nav></aside>
+      <main id="main-content">
+        <section class="section-anchor" id="appearance">
+          <div class="section-heading"><div><p class="eyebrow">Make it yours</p><h2>Appearance</h2></div></div>
+          <form id="appearanceForm" class="mc-panel mc-panel--dark stack">
+            <label class="mc-check"><input type="checkbox" id="highContrast"><span class="check-box" aria-hidden="true"></span><span>High contrast</span></label>
+            <label class="mc-check"><input type="checkbox" id="reducedMotion"><span class="check-box" aria-hidden="true"></span><span>Reduce motion</span></label>
+            <label class="mc-check"><input type="checkbox" id="textures"><span class="check-box" aria-hidden="true"></span><span>Show Minecraft textures</span></label>
+            <div class="mc-field"><label for="iconSize">Desktop icon size</label><select class="mc-select" id="iconSize"><option value="compact">Compact</option><option value="normal">Normal</option><option value="large">Large</option></select><small class="field-hint">Changes apply to the desktop and all apps in this browser. Your system's reduced motion preference is also respected.</small></div>
+            <div class="cluster"><button class="mc-button mc-button--primary" type="submit">Save settings</button><button class="mc-button" id="restoreAppearance" type="button">Restore defaults</button></div>
+            <p class="settings-status" id="appearanceStatus" role="status"></p>
+          </form>
+        </section>
+        <section class="section-anchor" id="layout">
+          <div class="section-heading"><div><p class="eyebrow">Desktop preferences</p><h2>App order</h2></div></div>
+          <div class="mc-panel mc-panel--dark stack"><p>Choose Customize on the desktop, then drag app icons into place or use their arrow buttons. Your order is saved automatically.</p>
+            <div class="cluster"><a class="mc-button" href="../index.html">Open desktop</a><button class="mc-button mc-button--gold" id="resetLayout" type="button">Reset app order</button></div>
+            <p class="settings-status" id="layoutStatus" role="status"></p>
+          </div>
+        </section>
+        <section class="section-anchor" id="about">
+          <div class="section-heading"><div><p class="eyebrow">Beehave Corp</p><h2>About</h2></div></div>
+          <div class="mc-card stack"><p>A Minecraft styled desktop for Beehave Calendar. Convert a daycount into a date starting from January 1 of year 0.</p><p>Appearance preferences and your last daycount are stored in this browser.</p><p>Visual references and remote textures come from the <a href="https://minecraft.wiki/w/Textures" target="_blank" rel="noopener noreferrer">Minecraft Wiki</a>. Minecraft is a trademark of Microsoft/Mojang. This project is independent and unaffiliated.</p></div>
+        </section>
+      </main>
+    </div>
+  </div>
+  <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>

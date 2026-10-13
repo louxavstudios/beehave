@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "title": "Beehave Corp",
+  "description": "Beehave Calendar — turn a daycount into a date from year zero.",
+  "apps": [
+    { "name": "calendar", "long_name": "Calendar", "description": "Convert days since January 1, year 0 into a date and see it in a calendar.", "path": "calendar/", "icon": "media/calendar.svg", "accent": "#55ff55" }
+  ]
+}

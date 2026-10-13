@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171717">
+  <meta name="description" content="Beehave Corp — a Minecraft styled desktop for your tools.">
+  <title>Beehave Corp</title>
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="stylesheet" href="styles/minecraft.css">
+  <link rel="stylesheet" href="styles/corp.css">
+  <script src="preferences.js"></script>
+  <script defer src="ui.js"></script>
+  <script defer src="index.js"></script>
+</head>
+<body class="desktop-page">
+  <a class="skip-link" href="#desktop">Skip to apps</a>
+  <div class="home-background" aria-hidden="true"></div>
+  <main class="desktop" id="desktop" aria-label="Beehave Corp apps" tabindex="-1">
+    <p id="desktopStatus" role="status">Loading apps…</p>
+  </main>
+  <div class="customize-banner mc-card" id="customizeBanner" hidden>
+    <span>Drag apps to reorder. Use arrow buttons with a keyboard.</span>
+    <button class="mc-button mc-button--primary" id="doneCustomize" type="button">Done</button>
+  </div>
+  <div class="context-menu mc-card" id="contextMenu" hidden aria-label="Desktop actions">
+    <button class="mc-button" id="menuCustomize" type="button">Customize desktop</button>
+    <a class="mc-button" href="settings/">Settings</a>
+  </div>
+  <div class="app-tooltip mc-card" id="appTooltip" role="tooltip" hidden></div>
+  <footer class="desktop-footer">
+    <div><h1>Beehave <span class="text-green">Corp</span></h1><p>Minecraft tools, your way.</p></div>
+    <div class="desktop-footer-actions">
+      <button class="mc-button" id="customizeDesktop" type="button">Customize</button>
+      <a class="mc-button" href="settings/">Settings</a>
+      <a class="texture-credit" href="https://minecraft.wiki/w/Textures" target="_blank" rel="noopener noreferrer">Textures: Minecraft Wiki</a>
+    </div>
+  </footer>
+  <div class="loading-screen" id="loadingScreen" hidden role="status"><div class="mc-panel mc-panel--dark"><div class="loading-block" aria-hidden="true"></div><p id="loadingText">Opening app…</p></div></div>
+  <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
+  <noscript><p class="mc-card">Enable JavaScript to use the desktop, or open <a href="calendar/">Calendar</a> or <a href="settings/">Settings</a>.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171717">
+  <title>Calendar — Beehave Corp</title>
+  <link rel="icon" href="../icon.png" type="image/png">
+  <link rel="stylesheet" href="../styles/minecraft.css">
+  <link rel="stylesheet" href="../styles/corp.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="../preferences.js"></script>
+  <script defer src="../ui.js"></script>
+  <script type="module" src="index.js"></script>
+</head>
+<body class="calendar-page">
+  <a class="skip-link" href="#main-content">Skip to calendar</a>
+  <div class="corp-app">
+    <header class="topbar"><div class="cluster"><a class="mc-button home-button" href="../index.html" aria-label="Back to desktop">⌂ Desktop</a><h1 class="page-title">Calendar</h1></div><a class="mc-button" href="../settings/">Settings</a></header>
+    <main id="main-content">
+      <div class="section-heading"><div><p class="eyebrow">Every day counts</p><h2>From daycount to date</h2></div><p class="muted">Day 0 is January 1, year 0.<br>Dates follow Gregorian leap-year rules.</p></div>
+      <div class="calendar-layout">
+        <div class="stack calendar-input-column">
+          <form id="daycountForm" class="mc-panel stack" novalidate>
+            <div class="mc-field"><label for="daycount">Daycount</label><input class="mc-input" id="daycount" name="daycount" type="text" inputmode="numeric" pattern="[0-9]+" maxlength="30" value="0" autocomplete="off" spellcheck="false" aria-describedby="daycountHint daycountError"><small class="field-hint" id="daycountHint">Enter the number of days passed since day 0.</small></div>
+            <button class="mc-button mc-button--primary" type="submit">Convert to date</button>
+            <p id="daycountError" class="input-error" role="alert" hidden></p>
+          </form>
+          <section class="mc-card result-card" aria-label="Converted date" aria-live="polite" aria-atomic="true">
+            <p class="eyebrow">Your date</p><h3 id="resultDate">January 1, Year 0</h3><p class="text-green" id="resultWeekday">Saturday</p><p class="muted" id="resultDaycount">Daycount 0</p>
+          </section>
+          <button class="mc-button" id="showSelected" type="button">Show converted date</button>
+        </div>
+        <section class="mc-panel mc-panel--dark month-panel" aria-label="Monthly calendar">
+          <div class="month-toolbar"><button class="mc-button mc-button--icon" id="previousMonth" type="button" aria-label="Previous month">←</button><h2 id="monthTitle" aria-live="polite">January · Year 0</h2><button class="mc-button mc-button--icon" id="nextMonth" type="button" aria-label="Next month">→</button></div>
+          <table class="month-calendar" aria-labelledby="monthTitle"><thead><tr><th scope="col"><abbr title="Monday">Mon</abbr></th><th scope="col"><abbr title="Tuesday">Tue</abbr></th><th scope="col"><abbr title="Wednesday">Wed</abbr></th><th scope="col"><abbr title="Thursday">Thu</abbr></th><th scope="col"><abbr title="Friday">Fri</abbr></th><th scope="col"><abbr title="Saturday">Sat</abbr></th><th scope="col"><abbr title="Sunday">Sun</abbr></th></tr></thead><tbody id="calendarDays"></tbody></table>
+          <p class="muted calendar-legend"><span class="selected-swatch" aria-hidden="true"></span>Converted date</p>
+        </section>
+      </div>
+    </main>
+    <footer class="site-footer"><p>Texture references: <a href="https://minecraft.wiki/w/Textures">Minecraft Wiki</a>. Minecraft is a trademark of Microsoft/Mojang. This independent project is not affiliated.</p><p>Beehave Corp</p></footer>
+  </div>
+  <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
+</body>
+</html>

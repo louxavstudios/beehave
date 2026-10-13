@@ -1,0 +1,20 @@
+.calendar-layout { display: grid; grid-template-columns: minmax(240px, 340px) minmax(0, 1fr); gap: 28px; align-items: start; }
+.calendar-input-column { align-content: start; }
+.calendar-input-column .mc-panel { padding: 22px; }
+.input-error { margin: 0; color: #8c2020; font-family: var(--mc-code-font); font-size: 13px; }
+.result-card h3 { overflow-wrap: anywhere; line-height: 1.4; }
+.result-card p:last-child { overflow-wrap: anywhere; }
+.month-toolbar { display: grid; grid-template-columns: 44px minmax(0,1fr) 44px; gap: 12px; align-items: center; margin-bottom: 22px; }
+.month-toolbar h2 { margin: 0; text-align: center; font-size: clamp(20px, 3vw, 30px); overflow-wrap: anywhere; }
+.month-calendar { border-collapse: separate; border-spacing: 6px; table-layout: fixed; width: 100%; }
+.month-calendar th { padding-bottom: 12px; color: var(--mc-gray); font-weight: 400; font-size: 16px; }
+.month-calendar abbr { text-decoration: none; }
+.month-calendar td { height: 62px; padding: 0; text-align: center; border: 3px solid #080808; background: #3b3b3b; box-shadow: inset 2px 2px #666, inset -2px -2px #222; font-size: 22px; }
+.month-calendar td.empty-day { border: 0; background: transparent; box-shadow: none; }
+.month-calendar td.selected-day { color: #fff; background: #287f28; border-color: var(--mc-green); box-shadow: inset 2px 2px #65b846, inset -2px -2px #154515; }
+.calendar-legend { display: flex; gap: 10px; align-items: center; font-size: 15px; margin-bottom: 0; }
+.selected-swatch { width: 16px; height: 16px; background: #287f28; border: 2px solid var(--mc-green); }
+body.high-contrast .month-calendar td { border-color: #fff; }
+body.high-contrast .month-calendar td.selected-day { outline: 3px solid var(--mc-green); outline-offset: -5px; }
+@media (max-width: 950px) { .calendar-layout { grid-template-columns: 1fr; } .calendar-input-column { grid-template-columns: minmax(0,1fr) minmax(0,1fr); } .calendar-input-column > button { grid-column: 1/-1; } }
+@media (max-width: 600px) { .calendar-input-column { grid-template-columns: 1fr; } .month-panel { padding: 12px; } .month-calendar { border-spacing: 3px; } .month-calendar td { height: 40px; font-size: 18px; border-width: 2px; } .month-calendar th { font-size: 13px; } .month-toolbar { gap: 6px; } }
